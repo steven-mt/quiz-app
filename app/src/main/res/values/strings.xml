@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="title_text">This quiz contains a few questions which may be related to different
+        topics such as mathematics, astronomy, or chemistry.
+        \n
+        \nWhen you press the Start button, the
+        quiz and timer will start. Once you are done with the quiz, press the Done button.
+        The timer stops once you press the Done button and your score and the time taken will be
+        displayed at the bottom of the screen.
+        \n
+        \nThe app keeps a list of ten of the highest scores,
+        and if your score is high enough, it will be added to the list upon pressing the Done
+        button.</string>
+    <string name="start_button">Start</string>
+
+    <!-- Menu -->
+    <string name="high_scores">High Scores</string>
+    <string name="settings">Settings</string>
+
+    <!-- Settings Fragment -->
+    <string name="appearance_header">Appearance</string>
+    <string name="theme_preference_title">Theme</string>
+    <string name="clear_high_scores_preference_title">Clear high scores</string>
+
+    <string name="question_text">Question</string>
+    <string name="answer_text">Answer</string>
+
+    <string name="number_question">What is %d %s %d ?</string>
+    <string name="result_text">Correct: %d/%d\nTime taken: %f s</string>
+    <string name="astronomy_question">What is the %s planet from the Sun?</string>
+    <string name="chemistry_question">What element has the chemical symbol of %s?</string>
+
+    <string name="done_button">Done</string>
+
+    <string name="high_score_title">10 Highest Scores:</string>
+    <string name="score">Score</string>
+    <string name="time">Time (s)</string>
+    <string name="high_score_number">No.</string>
+
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="element_symbols">
+        <item>H</item>
+        <item>He</item>
+        <item>Li</item>
+        <item>Be</item>
+        <item>B</item>
+        <item>C</item>
+        <item>N</item>
+        <item>O</item>
+        <item>F</item>
+        <item>Ne</item>
+        <item>Na</item>
+        <item>Mg</item>
+        <item>Al</item>
+        <item>Si</item>
+        <item>P</item>
+        <item>S</item>
+        <item>Cl</item>
+        <item>Ar</item>
+    </string-array>
+
+    <string-array name="element_names">
+        <item>Hydrogen</item>
+        <item>Helium</item>
+        <item>Lithium</item>
+        <item>Beryllium</item>
+        <item>Boron</item>
+        <item>Carbon</item>
+        <item>Nitrogen</item>
+        <item>Oxygen</item>
+        <item>Fluorine</item>
+        <item>Neon</item>
+        <item>Sodium</item>
+        <item>Magnesium</item>
+        <item>Aluminium</item>
+        <item>Silicon</item>
+        <item>Phosphorus</item>
+        <item>Sulfur</item>
+        <item>Chlorine</item>
+        <item>Argon</item>
+    </string-array>
+
+</resources>
